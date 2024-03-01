@@ -37,11 +37,7 @@ const App = () => {
         rows={5}
         cols={40}
       />{" "}
-      {suggestedText && (
-        <p>
-          Did you mean: <strong> {suggestedText} </strong>?{" "}
-        </p>
-      )}{" "}
+      {suggestedText && <p> Did you mean: <strong>{suggestedText}</strong>? </p>}{" "}
     </div>
   );
 };
